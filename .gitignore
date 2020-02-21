@@ -1,0 +1,45 @@
+# IDEs
+.project
+.pydevproject
+.idea
+.vscode
+.settings
+
+# Random files
+*~
+\#*
+
+# Python compiled byte code
+__pycache__
+*.pyc
+
+# SQLite3 database
+*.sqlite
+
+# Node modules
+node_modules/
+yarn.lock
+npm-debug.log
+
+# Coverage 
+coverage/
+.coverage
+.cache
+
+# static validation files
+.eslintrc
+.sass-lint.yml
+.prospector.yml
+.coveragerc
+
+# not include scripts because they come from external module
+scripts/
+
+# local config
+local_config.py
+
+# environment variables
+src/.env
+
+# platform specific
+.DS_Store
